@@ -26,13 +26,13 @@ var getSignalState = (int state) =>
 var sendSine = async  () =>
 {
     var content = getSignalSine(100, Random.Shared.Next(0, 32));
-    await http.PutAsync("http://localhost:5032/signal", content);
+    await http.PutAsync("http://localhost:5000/signal", content);
 };
 
 var sendState = async () =>
 {
     var content = getSignalState(Random.Shared.Next(256, 4095));
-    await http.PutAsync("http://localhost:5032/signal", content);
+    await http.PutAsync("http://localhost:5000/signal", content);
 };
 
 while (sendSignals)

@@ -29,13 +29,13 @@ namespace Device
         private async Task sendSineAnomaly()
         {
             var content = _getSignalSine(100, Random.Shared.Next(33, 70));
-            await _httpClient.PutAsync("http://localhost:5032/signal", content);
+            await _httpClient.PutAsync("http://localhost:5000/signal", content);
         }
 
         private async Task sendStateAnomaly()
         {
             var content = _getSignalState(Random.Shared.Next(4096, 10000));
-            await _httpClient.PutAsync("http://localhost:5032/signal", content);
+            await _httpClient.PutAsync("http://localhost:5000/signal", content);
         }
 
         private void _markNextGeneration()
