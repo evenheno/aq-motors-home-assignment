@@ -1,0 +1,12 @@
+<html>
+
+<head>Aquarius Motors - Home Assignment (Web Client)</head>
+
+<body>
+  <div *ngIf="lastUpdate">
+    Last Update: {{lastUpdate | timestampString}}
+  </div>
+  <app-signals-viewer [data]="signals"></app-signals-viewer>
+</body>
+
+</html>

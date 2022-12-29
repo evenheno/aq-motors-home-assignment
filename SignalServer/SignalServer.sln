@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalServer", "SignalServer.csproj", "{B1B49505-34E0-4B7E-ACC5-8D9B6CFFA880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLib", "..\CommonLib\CommonLib.csproj", "{EF509BAD-179A-416D-8266-62E4BF6E8404}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1B49505-34E0-4B7E-ACC5-8D9B6CFFA880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B49505-34E0-4B7E-ACC5-8D9B6CFFA880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B49505-34E0-4B7E-ACC5-8D9B6CFFA880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B49505-34E0-4B7E-ACC5-8D9B6CFFA880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF509BAD-179A-416D-8266-62E4BF6E8404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF509BAD-179A-416D-8266-62E4BF6E8404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF509BAD-179A-416D-8266-62E4BF6E8404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF509BAD-179A-416D-8266-62E4BF6E8404}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EEBAC02-641B-4367-AA62-5A29ACF132B1}
+	EndGlobalSection
+EndGlobal

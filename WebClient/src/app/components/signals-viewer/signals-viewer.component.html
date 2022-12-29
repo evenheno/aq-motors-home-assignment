@@ -1,0 +1,15 @@
+<div class="signals-viewer">
+    <div *ngIf="!data">NO DATA TO DISPLAY</div>
+    <div *ngIf="data">
+        <div *ngFor="let signal of data">
+            <div *ngIf="isSine(signal.signalType)">
+                SINE |
+                Frequency: {{asSine(signal).frequency}} |
+                Amplitude: {{asSine(signal).amplitude}}
+            </div>
+            <div *ngIf="isState(signal.signalType)">
+                STATE | {{asState(signal).state}}
+            </div>
+        </div>
+    </div>
+</div>
